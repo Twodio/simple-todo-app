@@ -33,6 +33,9 @@ const authController = (function(){
 
             return true;
         },
+        register: async function(username, password){
+
+        },
         logout: function(){
             clearAuthToken();
         },
